@@ -1,7 +1,5 @@
 # Secure Backup System for WordPress
 
-![License](https://img.shields.io/badge/license-GPL--3.0%2B-red)
-
 A secure database backup solution with multiple layers of protection and access controls.
 
 ## Features
@@ -76,13 +74,10 @@ A secure database backup solution with multiple layers of protection and access 
 
 Always test backups in a staging environment before relying on them for production use. The developers are not responsible for any data loss.
 
-## License
-
-GPL-3.0+ | © 2024 [Your Name]
 
 ## Changelog
 
-**1.0.0** (2024-02-20)
+**1.0.0** (2025-02-18)
 - Initial release with core backup functionality
 - Security layers implementation
 - WordPress settings integration
