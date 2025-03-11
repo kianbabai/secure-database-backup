@@ -19,8 +19,6 @@ A secure database backup solution with multiple layers of protection and access 
   - Chunked data processing for large tables
   - Automatic directory creation
   - Downloadable backup files
-  - **New:** Top bar button for quick access
-  - **New:** Automatic redirection to dashboard after backup
 
 ## Installation
 
@@ -33,6 +31,8 @@ A secure database backup solution with multiple layers of protection and access 
 
 1. Go to **Settings > General**
 2. Find the **Secure Backup Settings** section
+3. Copy the generated backup URL (bookmark this - it will only show once)
+4. Optional: Add IP whitelisting in plugin code
 
 ## Usage
 

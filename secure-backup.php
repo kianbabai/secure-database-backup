@@ -105,3 +105,12 @@ add_action('init', function () {
     require_once plugin_dir_path(__FILE__) . 'includes/backup-endpoint.php';
     exit;
 });
+
+
+// Show notice after backup generation
+add_action('admin_notices', function () {
+    if ($message = get_transient('secure_backup_notice')) {
+        echo '<div class="notice notice-success is-dismissible"><p>' . esc_html($message) . '</p></div>';
+        delete_transient('secure_backup_notice');
+    }
+});

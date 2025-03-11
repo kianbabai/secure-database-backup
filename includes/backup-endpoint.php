@@ -98,5 +98,7 @@ foreach ($files as $file) {
         unlink($file);
     }
 }
+set_transient('secure_backup_notice', 'Backup completed successfully', 30);
+
 wp_redirect(admin_url());
 exit;
