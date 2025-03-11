@@ -98,5 +98,5 @@ foreach ($files as $file) {
         unlink($file);
     }
 }
-
+wp_redirect(admin_url());
 exit;
